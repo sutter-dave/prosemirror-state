@@ -1,6 +1,6 @@
-import {Transform} from "prosemirror-transform"
-import {Mark} from "prosemirror-model"
-import {Selection} from "./selection"
+import {Transform} from "/prosemirror/dist/prosemirror-transform.es.js"
+import {Mark} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Selection} from "./selection.js"
 
 const UPDATED_SEL = 1, UPDATED_MARKS = 2, UPDATED_SCROLL = 4
 

@@ -1,7 +1,7 @@
-import {Node} from "prosemirror-model"
+import {Node} from "/prosemirror/dist/prosemirror-model.es.js"
 
-import {Selection} from "./selection"
-import {Transaction} from "./transaction"
+import {Selection} from "./selection.js"
+import {Transaction} from "./transaction.js"
 
 function bind(f, self) {
   return !self || !f ? f : f.bind(self)

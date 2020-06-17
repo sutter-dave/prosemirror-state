@@ -1,7 +1,7 @@
-export {Selection, SelectionRange, TextSelection, NodeSelection, AllSelection} from "./selection"
+export {Selection, SelectionRange, TextSelection, NodeSelection, AllSelection} from "./selection.js"
 
-export {Transaction} from "./transaction"
+export {Transaction} from "./transaction.js"
 
-export {EditorState} from "./state"
+export {EditorState} from "./state.js"
 
-export {Plugin, PluginKey} from "./plugin"
+export {Plugin, PluginKey} from "./plugin.js"
