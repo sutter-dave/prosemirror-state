@@ -1,4 +1,4 @@
-import {Node} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Node} from "/prosemirror/devimports/prosemirror-model.es.js"
 
 import {Selection} from "./selection.js"
 import {Transaction} from "./transaction.js"
